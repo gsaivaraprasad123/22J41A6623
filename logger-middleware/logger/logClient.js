@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 
 const LOGGING_API_URL = process.env.LOGGING_API_URL;
-const ACCESS_TOKEN = process.env.ACCESS_TOKEN; // 🔑 From your .env
+const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 
 export const sendLog = async (stack, level, pkg, message) => {
   try {
@@ -13,7 +13,7 @@ export const sendLog = async (stack, level, pkg, message) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${ACCESS_TOKEN}` // ✅ Important
+        'Authorization': `Bearer ${ACCESS_TOKEN}` 
       },
       body: JSON.stringify(payload)
     });
