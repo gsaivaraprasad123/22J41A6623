@@ -1,3 +1,12 @@
 {"method":"POST","url":"/shorturls","statusCode":201,"timestamp":"2025-07-09T05:56:15.755Z","responseTime":"6ms"}
 {"method":"POST","url":"/shorturls","statusCode":201,"timestamp":"2025-07-09T06:20:42.943Z","responseTime":"2ms"}
 {"method":"POST","url":"/shorturls","statusCode":201,"timestamp":"2025-07-09T06:23:11.751Z","responseTime":"4ms"}
+{"method":"POST","url":"/shorturls","statusCode":201,"timestamp":"2025-07-09T17:24:13.532Z","responseTime":"5ms"}
+{"method":"GET","url":"/shorturls/custom123","statusCode":404,"timestamp":"2025-07-09T17:24:36.125Z","responseTime":"3ms"}
+{"method":"GET","url":"/custom123","statusCode":404,"timestamp":"2025-07-09T17:24:39.984Z","responseTime":"2ms"}
+{"method":"POST","url":"/shorturls","statusCode":201,"timestamp":"2025-07-09T17:24:48.228Z","responseTime":"2ms"}
+{"method":"GET","url":"/shorturls/custom123","statusCode":200,"timestamp":"2025-07-09T17:24:51.396Z","responseTime":"2ms"}
+{"method":"GET","url":"/custom123","statusCode":302,"timestamp":"2025-07-09T17:24:55.595Z","responseTime":"4ms"}
+{"method":"GET","url":"/shorturls/custom123","statusCode":200,"timestamp":"2025-07-09T17:25:03.360Z","responseTime":"2ms"}
+{"method":"GET","url":"/shorturls/custom123","statusCode":200,"timestamp":"2025-07-10T15:24:35.593Z","responseTime":"4ms"}
+{"method":"GET","url":"/shorturls/custom123","statusCode":200,"timestamp":"2025-07-10T15:24:39.823Z","responseTime":"3ms"}
